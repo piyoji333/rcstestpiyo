@@ -1,9 +1,9 @@
 {
-    "family": "SampleFrontTask",
+    "family": "testtask",
     "networkMode": "awsvpc",
     "containerDefinitions": [
       {
-        "name": "FrontNginxContainer",
+        "name": "httpd-container",
         "image": "409828212598.dkr.ecr.ap-northeast-1.amazonaws.com/test-front:latest",
         "portMappings": [
           {
